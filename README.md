@@ -1,11 +1,11 @@
-# CSM Assignment #2
+# CSM Assignment #3
 
 Mobile Web App Development
 
 ## Get Started
 
 ```bash
-pnpm install
+bun install
 # or `npm install`
 ```
 
@@ -14,7 +14,7 @@ pnpm install
 ## Start Dev Server
 
 ```bash
-pnpm run dev
+bun run dev
 # or `npm run dev`
 ```
 
@@ -23,7 +23,7 @@ pnpm run dev
 ## Build
 
 ```bash
-pnpm run build
+bun run build
 # or `npm run build`
 ```
 
@@ -32,7 +32,7 @@ pnpm run build
 ## Preview Production Build
 
 ```bash
-pnpm run preview
+bun run preview
 # or `npm run preview`
 ```
 
@@ -41,10 +41,10 @@ pnpm run preview
 ## Deploy to GitHub Pages
 
 ```bash
-pnpm run deploy
+bun run deploy
 # or `npm run deploy`
 ```
 
 ---
 
-Scaffolded with [template-vite-js-tailwind-v3](https://github.com/huibizhang/template-vite-vanilla-tailwind-v3)
+Scaffolded with [myoldassignmentboilerplate](https://github.com/Stvnwastaken/csmassignment2)
