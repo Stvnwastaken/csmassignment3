@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="night">
+
 <head>
 
   <meta charset="UTF-8" />
@@ -9,16 +10,47 @@
 </head>
 
 <body>
-  
 
-<h1>ABC Toys</h1>
-<h3>Making learning fun</h3>
-  
+  <nav>
+    <div class="navbar bg-background sticky backdrop-blur-md">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Products</a></li>
+            <li><a>Location</a></li>
+            <li><a>Extra</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl">ABC Toys</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="/location.html">Location</a></li>
+          <li><a href="/extra.html">Extra</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<p>ABC Toys is a company that opened its doors in 2001 and it has kept its mission for all those years.</p>
-<p>The mission of our company is to create toys that are safe for kindergarten kids but that challenge the kids' mind and motor skills making learning a fun task.</p>
-<p>By the way, parents love our toys too</p>
+  <h1 class="">ABC Toys</h1>
+  <h3>Making learning fun</h3>
 
+
+  <p>ABC Toys is a company that opened its doors in 2001 and it has kept its mission for all those years.</p>
+  <p>The mission of our company is to create toys that are safe for kindergarten kids but that challenge the kids' mind
+    and motor skills making learning a fun task.</p>
+  <p>By the way, parents love our toys too</p>
+
+  <script type="module" src="/src/main.js"></script>
 
 </body>
 
